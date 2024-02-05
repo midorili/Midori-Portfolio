@@ -30,3 +30,6 @@ jobs:
         with:
           zeit-token: ${{ secrets.VERCEL_TOKEN }}
           now-org-id: ${{ secrets.VERCEL_ORG_ID }}
+
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
